@@ -1,14 +1,11 @@
-[tool.poetry]
+[project]
 name = "CHANGE_ME"
 version = "0.1.0"
-description = ""
-authors = ["haruki7049 <tontonkirikiri@gmail.com>"]
+requires-python = ">=3.12"
+# license = { file = "LICENSE" }
+authors = [{ name = "haruki7049", email = "tontonkirikiri@gmail.com" }]
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+dependencies = [
+  #"django" # Example
+]
