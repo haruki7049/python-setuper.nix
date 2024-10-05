@@ -15,6 +15,20 @@
         inputs.treefmt-nix.flakeModule
       ];
 
+      flake = {
+        templates = {
+          python-project = {
+            path = ./templates/python-project;
+            description = "A Python template, using poetry2nix, treefmt-nix and flake-parts";
+            welcomeText = ''
+              # Getting started
+              1. Edit pyproject.toml, to change project's name
+              1. Edit /CHANGE_ME directory's name to your project's name
+            '';
+          };
+        };
+      };
+
       perSystem =
         { pkgs, ... }:
         {
