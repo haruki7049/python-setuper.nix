@@ -10,10 +10,10 @@ dependencies = [
   #"django" # Example
 ]
 
-# Create /src/test_python_nix/__init__.py and Edit as:
+# Create /src/{your_project_name}/__init__.py and Edit as:
 # ```
 # def main():
-#     print("test-python-nix")
+#     print("foofoo")
 # ```
 #[project.entry-points.console_scripts]
-#test-python-nix = "test_python_nix:main"
+#main = "your_project_name:main"
