@@ -9,3 +9,11 @@ readme = "README.md"
 dependencies = [
   #"django" # Example
 ]
+
+# Create /src/test_python_nix/__init__.py and Edit as:
+# ```
+# def main():
+#     print("test-python-nix")
+# ```
+#[project.entry-points.console_scripts]
+#test-python-nix = "test_python_nix:main"
